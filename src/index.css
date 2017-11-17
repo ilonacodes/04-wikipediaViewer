@@ -1,0 +1,70 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    background-color: #fff;
+}
+
+.title {
+    color: #E44424;
+    font-size: 48px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.title #title-tag {
+    color: #F95;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.user-input, .result {
+    margin-top: 30px;
+}
+
+.user-input input {
+    width: 350px;
+    height: 30px;
+    font-size: 16px;
+    font-family: cursive;
+    border: 1px solid #67BCDB;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.buttons .search {
+    padding: 6px 15px;
+    background-color: #67BCDB;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.buttons .surprise-me {
+    text-decoration: none;
+    color: #A2AB58;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.surprise-me:hover {
+    text-decoration: underline;
+}
+
+.result {
+    color: #333;
+    font-size: 20px;
+}
