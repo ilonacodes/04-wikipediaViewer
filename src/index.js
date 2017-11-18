@@ -20,7 +20,6 @@ function getResults() {
     window[callbackName] = function (data) {
         delete window[callbackName];
         document.body.removeChild(script);
-        // result.innerHTML = JSON.stringify(data);
 
         const searchResults = data.query.search.map(function (searchResult) {
             return '<div class="search-result-title"><a href="https://en.wikipedia.org/wiki/' + searchResult.title + '">' +
