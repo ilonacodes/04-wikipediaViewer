@@ -35,6 +35,7 @@ function getResults() {
     script = document.createElement("script");
     script.src = url + '&callback=' + callbackName;
     document.body.appendChild(script);
+
 }
 
 const searchButton = document.getElementsByClassName("search")[0];
